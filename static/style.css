@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+tabela {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tabela_1, tabela_2 {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+ tabela tr {
+    background-color: #f2f2f2;
+}
+
+.aprovado {
+    background-color: #d4edda; /* verde claro */
+    color: #155724;
+}
+
+.reprovado {
+    background-color: #f8d7da; /* vermelho claro */
+    color: #721c24;
+}

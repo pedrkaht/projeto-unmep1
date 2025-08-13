@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+        <meta charset="UTF-8">
+    <title>Lista de Alunos</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #5ee1e6; padding: 8px; text-align: left; }
+        th { background-color: #b5ebf8; }
+        .aprovado { color: rgb(1, 145, 1); font-weight: bold; }
+        .reprovado { color: rgb(199, 7, 7); font-weight: bold; }
+    </style>
+
+    
+    </head>
+<body>
+    <h1>Lista de Alunos</h1>
+
+            <form method="GET">
+                <input type="text" name="busca" placeholder="Buscar por nome" value="{{ busca }}">
+                <button type="submit">Buscar</button>
+            </form>
+
+            <table>
+                <tr>
+                    <th>Nome</th>
+
+                    <th>Média</th>
+
+                    <th>Faltas</th>
+
+                    <th>Status</th>
+
+                    <th>Motivo</th>
+        </tr>
+        {% for aluno in alunos %}
+                    <tr>
+                    <td>{{ aluno.primeiro_nome }}  {{ aluno.ultimo_nome }}</td>
+
+                    <td>{{ "%.2f"|format(aluno.media) }}</td>
+
+                    <td>{{ aluno.faltas }}</td>
+                    
+                    <td class="{{ 'aprovado' if aluno.status == 'Aprovado' else 'reprovado' }}">
+                        {{ aluno.status }}
+                    </td>
+                    <td>{{ aluno.motivo }}</td>
+                </tr>
+                {% endfor %}
+    </table>
+    </body>
+    </html>
+
