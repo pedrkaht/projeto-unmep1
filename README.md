@@ -3,17 +3,17 @@
 Aplicação desenvolvida em Python com o Flask para leitura, filtragem e classificação de alunos a partir de um arquivo JSON local e tambem usei uma pagina web feita com HTML e CSS
 
 #passo a passo
-*baixar os arquivos descopactalos e abrir eles no vs code
+*baixar os arquivos, deixar descompactados e abrir eles no vs code
 
 #instalações
-*instalar o python na maquina e sua extensao no vs code
+*instalar o python na maquina e a extensao python no vs code
 obs: ao instalar o python na maquina lembre de ativar as opcoes "use admin privileges when instaling py exe" e "add python.exe to PATH"
 
 *testar se o python realmente foi instalado
-execute o powershell com adm e digite "python --version"
+execute o powershell como adm e digite "python --version"
 
 *instalar o flask
-abra novamente o powershell e digite "pip install flask"
+abra novamente o powershell como adm e digite "pip install flask"
 
 *executar projeto
 entre na pasta baixada e copie o seu caminho, exemplo "C:\Users\pedro\OneDrive\Documentos\projeto-unmep1-main"
