@@ -6,7 +6,7 @@ Aplicação desenvolvida em Python com o Flask para leitura, filtragem e classif
 *baixar os arquivos, deixar descompactados e abrir eles no vs code
 
 ### instalações <br>
-*instalar o python na maquina e a extensao python no vs code <br>
+instalar o python na maquina e a extensao python no vs code <br>
 obs: ao instalar o python na maquina lembre de ativar as opcoes "use admin privileges when instaling py exe" e "add python.exe to PATH" <br>
 
 ### testar se o python realmente foi instalado <br>
@@ -30,5 +30,5 @@ Press CTRL+C to quit
  * Debugger is active!
  * Debugger PIN: 361-310-846
 
-###apos isso e so escolher um navegador de sua preferencia e executar "http://127.0.0.1:5000" <br>
-obs: lembre de deixar o powershell aberto.
+### apos isso é so escolher um navegador de sua preferencia e executar "http://127.0.0.1:5000" <br>
+#### obs: lembre de deixar o powershell aberto.
