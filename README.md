@@ -34,5 +34,7 @@ Press CTRL+C to quit
 #### obs: lembre de deixar o powershell aberto.
 
 ## video do projeto
-https://github.com/user-attachments/assets/af4a9fee-e44d-4f5c-a809-506272ab2948
+https://github.com/user-attachments/assets/69e2db84-9aa7-4e01-b5ac-614e9d1d4e80
+
+
 
