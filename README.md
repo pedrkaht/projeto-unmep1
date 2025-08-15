@@ -1,4 +1,4 @@
-#sistema de gestao de alunos
+###sistema de gestao de alunos
 
 Aplicação desenvolvida em Python com o Flask para leitura, filtragem e classificação de alunos a partir de um arquivo JSON local e tambem usei uma pagina web feita com HTML e CSS
 
