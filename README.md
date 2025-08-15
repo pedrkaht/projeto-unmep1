@@ -3,7 +3,7 @@
 Aplicação desenvolvida em Python com o Flask para leitura, filtragem e classificação de alunos a partir de um arquivo JSON local e tambem usei uma pagina web feita com HTML e CSS
 
 ## Passo a passo <br>
-*baixar os arquivos, deixar descompactados e abrir eles no vs code
+baixar os arquivos, deixar descompactados e abrir eles no vs code
 
 ### instalações <br>
 instalar o python na maquina e a extensao python no vs code <br>
@@ -20,7 +20,7 @@ entre na pasta baixada e copie o seu caminho, exemplo "C:\Users\pedro\OneDrive\D
 volte ao powershell e execute. "cd C:\Users\pedro\OneDrive\Documentos\projeto-unmep1-main" <br>
 agora ainda no powershell execute. "python app.py" <br>
 
-### se der tudo certo aparecera algo assim <br>
+#### se der tudo certo aparecera algo assim <br>
 
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
@@ -32,3 +32,7 @@ Press CTRL+C to quit
 
 ### apos isso é so escolher um navegador de sua preferencia e executar "http://127.0.0.1:5000" <br>
 #### obs: lembre de deixar o powershell aberto.
+
+## video do projeto
+https://github.com/user-attachments/assets/af4a9fee-e44d-4f5c-a809-506272ab2948
+
